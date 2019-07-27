@@ -131,14 +131,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
 h6::selection
 {
-	
+
 }
 .form-control
 {
@@ -237,7 +237,7 @@ section
 	line-height: 66px;
 	text-transform: uppercase;
 	letter-spacing: 6.7px;
-	
+
 }
 .button a svg
 {
@@ -284,7 +284,12 @@ section
 {
 	height: 130% !important;
 }
-
+.photo {
+	height: 300px;
+	background-size: cover;
+	width: auto;
+}
+.row {margin-top:25px;}
 
 /*********************************
 4. Home Social
@@ -700,7 +705,7 @@ section
 }
 .icon_box
 {
-	
+
 }
 .icon_box h3
 {
